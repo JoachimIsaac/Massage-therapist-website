@@ -1,0 +1,86 @@
+@import "/Users/joachim/Projects/personal projects /massage therapist site /css/reset.css";
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+  background: red;
+  font-family: "PT Sans Narrow", sans-serif;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+header .inner-header-container {
+  position: absolute;
+}
+
+header .inner-header-container .logo-and-text-container {
+  width: 40%;
+
+  top: 1px;
+}
+
+header .logo-container {
+  display: inline-block;
+  float: left;
+}
+
+header .logo-container img {
+  width: 97px;
+  height: 97px;
+  border: 3px solid black;
+  margin-right: 10px;
+}
+
+header .text-near-logo {
+  display: inline-block;
+  text-transform: uppercase;
+  float: left;
+  position: relative;
+  top: 5px;
+}
+
+header .text-near-logo .therapist-name {
+  font-size: 26px;
+}
+
+header .text-near-logo .therapist-title {
+  font-size: 20px;
+  position: relative;
+  bottom: -10px;
+}
+
+header .nav-container {
+  display: inline-block;
+  float: right;
+  position: relative;
+  top: 42px;
+  padding-right: 10px;
+  font-size: 20px;
+}
+
+header .nav-container .nav-buttons {
+  display: inline-block;
+}
+
+header .nav-container .nav-buttons ul li {
+  display: inline-block;
+  margin: 5px;
+}
+
+header .nav-container .social-media {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+header .nav-container .social-media ul li {
+  display: inline-block;
+}
