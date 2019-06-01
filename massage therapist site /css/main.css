@@ -4,6 +4,10 @@ html {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 header {
   background: red;
   font-family: "PT Sans Narrow", sans-serif;
@@ -83,4 +87,5 @@ header .nav-container .social-media {
 
 header .nav-container .social-media ul li {
   display: inline-block;
+  margin-left: 10px;
 }
