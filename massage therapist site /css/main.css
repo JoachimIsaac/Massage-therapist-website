@@ -9,8 +9,9 @@ a {
 }
 
 header {
-  background: red;
+  /* background: palegreen; */
   font-family: "PT Sans Narrow", sans-serif;
+  font-family: "Encode Sans Condensed", sans-serif;
   margin-left: 60px;
   margin-right: 60px;
   margin-top: 30px;
@@ -53,13 +54,21 @@ header .text-near-logo {
 }
 
 header .text-near-logo .therapist-name {
-  font-size: 26px;
+  font-size: 23px;
+  color: #595959;
+}
+
+header .text-near-logo .therapist-name a {
+  color: #595959;
+  font-weight: bold;
 }
 
 header .text-near-logo .therapist-title {
-  font-size: 20px;
+  font-size: 19px;
+  font-weight: 400;
   position: relative;
   bottom: -10px;
+  color: #5e5e5c;
 }
 
 header .nav-container {
@@ -68,7 +77,7 @@ header .nav-container {
   position: relative;
   top: 42px;
   padding-right: 10px;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 header .nav-container .nav-buttons {
@@ -77,7 +86,17 @@ header .nav-container .nav-buttons {
 
 header .nav-container .nav-buttons ul li {
   display: inline-block;
-  margin: 5px;
+  margin: 8px;
+}
+
+/* remeber to make home bluelink nth child should work ... */
+header .nav-container .nav-buttons ul li a {
+  color: black;
+  font-weight: 200;
+}
+header .nav-container .nav-buttons .home-link {
+  color: lightblue;
+  font-weight: 500;
 }
 
 header .nav-container .social-media {
@@ -89,3 +108,82 @@ header .nav-container .social-media ul li {
   display: inline-block;
   margin-left: 10px;
 }
+
+header .nav-container .social-media ul li a {
+  color: black;
+  font-weight: 700;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////// */
+
+#intro-section .intro-content-container {
+  margin-left: 60px;
+  margin-right: 60px;
+  /* width: 1320px;
+  height: 740px;  */
+}
+
+/* set width by calulating how much it is through the nav  */
+#intro-section .intro-content-container .content-info {
+  float: left;
+  width: 895px;
+  height: 740px;
+  position: absolute;
+  width: 50%;
+  background: #fffc80;
+}
+
+#intro-section .intro-content-container .content-info .start-container {
+  top: 224px;
+  left: 254px;
+  position: relative;
+}
+
+#intro-section .intro-content-container .content-info:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#intro-section .intro-content-container .content-info .start {
+  color: #595959;
+  font-size: 72px;
+  text-transform: capitalize;
+
+  position: relative;
+}
+
+#intro-section .intro-content-container .content-info .mid {
+  color: #5e5e5c;
+  top: 261px;
+  left: 254px;
+  font-size: 26px;
+  position: relative;
+}
+
+#intro-section .intro-content-container .content-info .last {
+  position: relative;
+  top: 343px;
+  left: 254px;
+  background: #5e5e5c;
+  padding: 13px 21px;
+}
+
+#intro-section .intro-content-container .content-info .last a {
+  color: white;
+  text-decoration: none;
+}
+
+#intro-section .intro-content-container .content-pic {
+  float: right;
+  /* width: 660px;
+  height: 740px; */
+  width: 50%;
+  position: relative;
+}
+
+#intro-section .intro-content-container .content-pic img {
+  width: 895px;
+  height: 740px;
+}
+/* align the text  */
